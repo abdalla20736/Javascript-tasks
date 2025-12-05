@@ -13,7 +13,7 @@ switch (operator) {
     break;
   case "/":
     if(number2 == 0)
-    { console.log("Can't divide by 0") break;}
+    { console.log("Can't divide by 0"); break;}
     result = number1 / number2;
     break;
   case "*":
